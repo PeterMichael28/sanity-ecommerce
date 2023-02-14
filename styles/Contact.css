@@ -1,0 +1,39 @@
+
+#table table td:nth-child(1),
+#table table th:nth-child(1) {
+    width: 80px;
+    padding-left: 10px;
+}
+#table table td:nth-child(2) {
+    width: 140px;
+    text-align: center;
+}
+
+#table table th:nth-child(2),
+#table table th:nth-child(5),
+#table table th:nth-child(6),
+#table table th:nth-child(4),
+#table table td:nth-child(6),
+#table table td:nth-child(4) {
+    width: 100px;
+    text-align: center;
+}
+#table table td:nth-child(3),
+#table table th:nth-child(3) {
+    width: 150px;
+    text-align: center;
+}
+
+
+
+.cart small {
+    position: absolute;
+    top: -40%;
+    padding: 1px 6px;
+    background-color: #088178;
+    color:white;
+    border-radius: 50%;
+    font-size: .8rem;
+    right: -60%;
+    z-index: -1;
+}

@@ -1,0 +1,24 @@
+/*hero section*/
+.hero-btn {
+    background: url("/assets/button.png") center/cover no-repeat;
+}
+/*end of hero section*/
+
+
+
+@media only screen and (max-width: 640px) {
+    /*hero */
+ #hero {
+     background-size: cover;
+     background-position: top 30% right 40% ;
+ }
+ /*end of hero */
+
+.img img {
+    margin: 0;
+    width: 150px;
+    height: 50px;
+}
+    /*end of footer section*/
+
+}
