@@ -9,7 +9,7 @@ import HomeBanner2 from '@/components/HomeBanner2';
 import HomeBanner3 from '@/components/Homebanner3';
 import { client, urlFor } from '@/lib/Client';
 import { useDispatch, useSelector } from 'react-redux';
-import { addItemsList, selectItemsList } from '@/store/cartSlice';
+import { selectItemsList } from '@/store/cartSlice';
 
 
 
