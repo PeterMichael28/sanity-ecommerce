@@ -7,7 +7,7 @@ const Hero = () => {
             <h2 className='hero-h2'>Super value deals</h2>
             <h2 className="text-[#088178] hero-h2">On all products</h2>
             <p className='text-[1rem]  text-black/70 my-[3px] tracking-[1px] font-semibold'>Save more with coupons and up to 70% off!</p>
-            <Link href="/" className="hero-btn text-[#088178] my-[9px] text-[1.1rem] w-[180px] font-semibold flex justify-center items-center py-[10px] px-[20px]">Shop now</Link>
+            <Link href="/shop" className="hero-btn text-[#088178] my-[9px] text-[1.1rem] w-[180px] font-semibold flex justify-center items-center py-[10px] px-[20px]">Shop now</Link>
         </section>
      );
 }

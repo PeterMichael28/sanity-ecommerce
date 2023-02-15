@@ -47,16 +47,16 @@ const Footer = (props: Props) => {
             <div className="flex justify-center items-center space-x-9 md:space-x-20 sm:w-full">
             <div className="flex flex-col mb-7 sm:mb-0">
                 <h1 className='text-[1rem] mb-4 font-semibold'>About</h1>
-                <Link href="/" className='my-1 text-black/80 text-[.8rem] tracking-[1px]'>About Us</Link>
+                <Link href="/about" className='my-1 text-black/80 text-[.8rem] tracking-[1px]'>About Us</Link>
                 <a href="#/" className='my-1 text-black/80 text-[.8rem] tracking-[1px]'>Delivery Information</a>
                 <a href="#/" className='my-1 text-black/80 text-[.8rem] tracking-[1px]'>Privacy Policy</a>
                 <a href="#/" className='my-1 text-black/80 text-[.8rem] tracking-[1px]'>Terms & Conditions</a>
-                <Link href="/" className='my-1 text-black/80 text-[.8rem] tracking-[1px]'>Contact Us</Link>
+                <Link href="/contact" className='my-1 text-black/80 text-[.8rem] tracking-[1px]'>Contact Us</Link>
             </div>
             <div className="flex flex-col mb-7 sm:mb-0">
                 <h1 className='text-[1rem] mb-4 font-semibold'>My Account</h1>
                 <a href="#/" className='my-1 text-black/80 text-[.8rem] tracking-[1px]'>Sign In</a>
-                <Link href="/" className='my-1 text-black/80 text-[.8rem] tracking-[1px]'>View Cart</Link>
+                <Link href="/cart" className='my-1 text-black/80 text-[.8rem] tracking-[1px]'>View Cart</Link>
                 <a href="#/" className='my-1 text-black/80 text-[.8rem] tracking-[1px]'>My Wishlist</a>
                 <a href="#/" className='my-1 text-black/80 text-[.8rem] tracking-[1px]'>Track My Order</a>
                 <a href="#/" className='my-1 text-black/80 text-[.8rem] tracking-[1px]'>Help</a>

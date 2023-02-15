@@ -32,8 +32,8 @@ export const cartSlice = createSlice({
   initialState,
   reducers: {
 
-    addItemsList: ( state, action ) => {
-      state.itemsList = action.payload
+    resetItemsList: ( state, action ) => {
+      state.itemsList = []
   },
   
     //add items to cart
@@ -105,7 +105,7 @@ export const cartSlice = createSlice({
   },
 });
 
-export const { addToCart, removeCart, subtotalPrice, addItemsList } = cartSlice.actions;
+export const { addToCart, removeCart, subtotalPrice, resetItemsList } = cartSlice.actions;
 export const selectItemsList = (state: AppState) => state.cart.itemsList;
 export const selectTotalQty = (state: AppState) => state.cart.totalQty;
 export const selectSubTotal = (state: AppState) => state.cart.subTotal;
