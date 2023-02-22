@@ -22,10 +22,10 @@ const Header = ( props: Props ) => {
     // console.log(mobileMenu)
   }
   return (
-    <header className='bg-[#e3e6f3] px-6 pr- md:px-16 py-4 flex items-center justify-between w-[77%] fixed top-0 left-0 shadow-md shadow-[rgba(0,0,0,.4)] z-40 '>
+    <header className='nav-bar flex items-center justify-between'>
         <Link href='/'>
 
-      <Image src='/assets/logo.png' alt='logo' width={100} height={100} />
+          <Image src='/assets/logo.png' alt='logo' width={100} height={100} />
         </Link>
         
         <div className='flex items-center justify-between space-x-3 md:space-x-8 '>

@@ -26,14 +26,3 @@
 
 
 
-.cart small {
-    position: absolute;
-    top: -35%;
-    padding: 1px 6px;
-    background-color: #088178;
-    color:white;
-    border-radius: 50%;
-    font-size: .8rem;
-    right: -50%;
-    z-index: -1;
-}
