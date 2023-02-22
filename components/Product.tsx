@@ -30,7 +30,7 @@ const Product = ( { product }: any ) => {
   const handleAddToCArt = () => {
     dispatch(addToCart(product))
     toast.success(`${product.name} added Cart`, {
-      className: 'text-sm',
+      className: 'text-[.7rem]',
     })
   }
 

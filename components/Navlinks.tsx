@@ -7,6 +7,9 @@ type Props = {
   mobileMenu: boolean
 }
 
+
+
+
 const Navlinks = ({handleMobileMenu, mobileMenu}: Props) => {
   return (
     // <nav className={`${mobileMenu ? 'nav-ul' :'flex space-x-5' }`}>
