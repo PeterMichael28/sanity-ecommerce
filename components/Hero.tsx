@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Hero = () => {
     return ( 
-        <section id="hero" className="flex flex-col justify-center w-full bg-[url('/assets/hero4.png')] bg-no-repeat bg-center bg-cover px-3 md:px-16 md:mt-14 h-[100vh] ">
+        <section id="hero" className="flex flex-col justify-center w-full bg-[url('/assets/hero4.png')] bg-no-repeat bg-center bg-cover px-3 md:px-16 md:mt-12 h-[100vh] ">
             <h4 className='text-[1.1rem] text-black/70 mb-1 font-semibold tracking-[2px]'>Trade-in-offer</h4>
             <h2 className='hero-h2'>Super value deals</h2>
             <h2 className="text-[#088178] hero-h2">On all products</h2>
